@@ -1,3 +1,4 @@
+package br.com.xgeovanedamasceno.bankingsystem.application;
 
 public interface IConta {
 	

@@ -1,3 +1,7 @@
+package br.com.xgeovanedamasceno.bankingsystem.domain;
+
+import br.com.xgeovanedamasceno.bankingsystem.domain.Cliente;
+import br.com.xgeovanedamasceno.bankingsystem.domain.Conta;
 
 public class ContaPoupanca extends Conta {
 
@@ -7,7 +11,7 @@ public class ContaPoupanca extends Conta {
 
 	@Override
 	public void imprimirExtrato() {
-		System.out.println("=== Extrato Conta Poupança ===");
+		System.out.println("=== Extrato br.com.xgeovanedamasceno.bankingsystem.domain.Conta Poupanï¿½a ===");
 		super.imprimirInfosComuns();
 	}
 }

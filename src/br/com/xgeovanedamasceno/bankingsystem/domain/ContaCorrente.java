@@ -1,3 +1,7 @@
+package br.com.xgeovanedamasceno.bankingsystem.domain;
+
+import br.com.xgeovanedamasceno.bankingsystem.domain.Cliente;
+import br.com.xgeovanedamasceno.bankingsystem.domain.Conta;
 
 public class ContaCorrente extends Conta {
 
@@ -7,7 +11,7 @@ public class ContaCorrente extends Conta {
 
 	@Override
 	public void imprimirExtrato() {
-		System.out.println("=== Extrato Conta Corrente ===");
+		System.out.println("=== Extrato br.com.xgeovanedamasceno.bankingsystem.domain.Conta Corrente ===");
 		super.imprimirInfosComuns();
 	}
 	

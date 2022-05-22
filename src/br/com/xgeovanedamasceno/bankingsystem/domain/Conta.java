@@ -1,3 +1,6 @@
+package br.com.xgeovanedamasceno.bankingsystem.domain;
+
+import br.com.xgeovanedamasceno.bankingsystem.application.IConta;
 
 public abstract class Conta implements IConta {
 	
