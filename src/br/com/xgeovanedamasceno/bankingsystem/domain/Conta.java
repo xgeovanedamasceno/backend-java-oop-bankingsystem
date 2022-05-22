@@ -1,7 +1,5 @@
 package br.com.xgeovanedamasceno.bankingsystem.domain;
 
-import br.com.xgeovanedamasceno.bankingsystem.application.IConta;
-
 public abstract class Conta {
 	
 	private static final int AGENCIA_PADRAO = 1;
@@ -35,5 +33,9 @@ public abstract class Conta {
 
 	public abstract void transferir(double valor, Conta contaDestino);
 
-	public abstract void imprimirExtrato();
+	public void imprimirExtrato() {
+		System.out.println("Agência: " + this.getAgencia());
+		System.out.println("Número: " + this.getNumero());
+		System.out.println("Saldo: " + this.getSaldo());
+	}
 }
