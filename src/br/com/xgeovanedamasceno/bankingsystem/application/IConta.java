@@ -1,12 +1,13 @@
 package br.com.xgeovanedamasceno.bankingsystem.application;
 
+import br.com.xgeovanedamasceno.bankingsystem.domain.Conta;
+
 public interface IConta {
 	
-	void sacar(double valor);
+	void create(Conta conta);
+
+	void read(Conta conta);
+	void update(Conta conta);
 	
-	void depositar(double valor);
-	
-	void transferir(double valor, IConta contaDestino);
-	
-	void imprimirExtrato();
+	void delete(Conta conta);
 }
