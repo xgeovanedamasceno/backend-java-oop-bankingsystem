@@ -7,11 +7,11 @@
    1. Make these methods abstracts
 3. Rename 'IConta' interface to 'IContaApplication'
 
-Future Implementations:
+**Future Implementations:**
 
-[ ] Improve methods of 'Conta' domain
-[ ] Finish Code of 'Repository Layer'
-[ ] Integrate with database
+- [ ] Improve methods of 'Conta' domain
+- [ ] Finish Code of 'Repository Layer'
+- [ ] Integrate with database
 
 **Clone and import project to Intellij IDE - Notes**
 
