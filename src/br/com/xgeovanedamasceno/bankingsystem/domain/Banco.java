@@ -1,3 +1,5 @@
+package br.com.xgeovanedamasceno.bankingsystem.domain;
+
 import java.util.List;
 
 public class Banco {

@@ -1,3 +1,7 @@
+import br.com.xgeovanedamasceno.bankingsystem.domain.Cliente;
+import br.com.xgeovanedamasceno.bankingsystem.domain.Conta;
+import br.com.xgeovanedamasceno.bankingsystem.domain.ContaCorrente;
+import br.com.xgeovanedamasceno.bankingsystem.domain.ContaPoupanca;
 
 public class Main {
 

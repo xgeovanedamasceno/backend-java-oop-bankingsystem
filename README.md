@@ -1,5 +1,12 @@
 # Backend Java OOP Banking System
 
+## Refactor / Updates
+
+1. Development interface oriented
+2. Move 'IConta' methods to 'Conta' class
+   1. Make these methods abstracts
+3. Rename 'IConta' interface to 'IContaApplication'
+
 **Clone and import project to Intellij IDE - Notes**
 
 I had to import this forked project into IntelliJ IDE because IntelliJ is the IDE that I normally use.
@@ -24,7 +31,7 @@ After the steps above It was necessary to select the SDK version, so:
 That's all!
 
 
-##### Criando um Banco Digital com Java e Orientação a Objetos
+##### Criando um br.com.xgeovanedamasceno.bankingsystem.domain.Banco Digital com Java e Orientação a Objetos
 
 ##### 02/08/2021 - [Mentoria #1: Tire Suas Dúvidas Sobre Orientação a Objetos](https://www.youtube.com/watch?v=YS6ouOhkyNI)
 

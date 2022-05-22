@@ -1,3 +1,4 @@
+package br.com.xgeovanedamasceno.bankingsystem.domain;
 
 public class Cliente {
 
