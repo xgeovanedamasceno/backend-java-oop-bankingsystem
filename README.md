@@ -7,13 +7,19 @@
    1. Make these methods abstracts
 3. Rename 'IConta' interface to 'IContaApplication'
 
+Future Implementations:
+
+[ ] Improve methods of 'Conta' domain
+[ ] Finish Code of 'Repository Layer'
+[ ] Integrate with database
+
 **Clone and import project to Intellij IDE - Notes**
 
 I had to import this forked project into IntelliJ IDE because IntelliJ is the IDE that I normally use.
 But for that I had to import appropriately to resolve conflicts or erros caused by the fact that the original project was build
 with Eclipse IDE and there are underlying settings regarding the classpath.
 
-So, Did the following steps:
+So, I Did the following steps:
 1. After clone the project.
 2. Click **'File -> New -> Module from Existing Sources...'** in the navigation menu.
 3. **Select** the directory and click **'OK'**.
@@ -31,7 +37,7 @@ After the steps above It was necessary to select the SDK version, so:
 That's all!
 
 
-##### Criando um br.com.xgeovanedamasceno.bankingsystem.domain.Banco Digital com Java e Orientação a Objetos
+##### Criando um Banco Digital com Java e Orientação a Objetos
 
 ##### 02/08/2021 - [Mentoria #1: Tire Suas Dúvidas Sobre Orientação a Objetos](https://www.youtube.com/watch?v=YS6ouOhkyNI)
 
