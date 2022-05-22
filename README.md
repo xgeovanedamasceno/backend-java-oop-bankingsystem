@@ -1,5 +1,12 @@
 # Backend Java OOP Banking System
 
+## Refactor / Updates
+
+1. Development interface oriented
+2. Move 'IConta' methods to 'Conta' class
+   1. Make these methods abstracts
+3. Rename 'IConta' interface to 'IContaApplication'
+
 **Clone and import project to Intellij IDE - Notes**
 
 I had to import this forked project into IntelliJ IDE because IntelliJ is the IDE that I normally use.
